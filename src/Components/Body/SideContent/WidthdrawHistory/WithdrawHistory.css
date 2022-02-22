@@ -62,7 +62,7 @@
 }
 .withdraw_btn:hover{
     color: rgb(0, 0, 0);
-    background-color: #F7614E;
+    background-color: #0096ff;
     font-weight: 500;
 
 }
@@ -99,4 +99,7 @@
     font-size:16px;
     color: #F7614E;
     margin-left: -12px;
+}
+.my_wallet .buy:hover{
+   color: #0096ff;
 }
