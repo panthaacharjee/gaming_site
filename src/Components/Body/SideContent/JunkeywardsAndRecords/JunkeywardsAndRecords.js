@@ -16,7 +16,7 @@ const JunkeywardsAndRecords = () => {
                             <p>6 wins </p>
                         </div>
                 </div>
-                <div className="win border">
+                <div className="win" id='border'>
                         <img src={Image} alt={Image}/>
                         <div className="win_value">
                             <p>4 wins </p>

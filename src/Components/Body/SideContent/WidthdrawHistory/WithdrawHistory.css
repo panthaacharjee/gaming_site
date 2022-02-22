@@ -60,6 +60,12 @@
     color: rgb(196, 196, 196);
     border-radius: 5px;
 }
+.withdraw_btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: #F7614E;
+    font-weight: 500;
+
+}
 .withdraw_history_p{
     font-size: 16px;
     font-family: Nunito;
@@ -77,6 +83,9 @@
         font-style: normal;
         font-weight: normal;
         color : rgb(206, 206, 206);
+}
+.my_wallet a:hover{
+    color : rgb(206, 206, 206);
 }
 .my_wallet a span{
     margin-right: 30px;
