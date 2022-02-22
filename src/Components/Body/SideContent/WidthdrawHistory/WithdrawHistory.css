@@ -63,8 +63,8 @@
 .withdraw_btn:hover{
     color: rgb(252, 244, 244);
     background-color: #0096ff;
-    font-weight: 500;
-    border:0px solid #fff;
+    font-weight: 300;
+    border:1px solid #0096ff;
 
 }
 .withdraw_history_p{
