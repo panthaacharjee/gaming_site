@@ -4,9 +4,7 @@
 .side_content{
     margin-right: 30px;
 }
-.my_warriors{
-    width : 70%
-}
+
 .gaming-warrior{
     display: grid;
     grid-template-columns: 1fr 2fr;
