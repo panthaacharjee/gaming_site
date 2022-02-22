@@ -270,13 +270,9 @@
     .select-count-area {
         background: rgba(227, 233, 255, 0.12);
         color: rgba(255, 255, 255, 0.66);
-        width: 100%;
+        width: 10%;
         padding-bottom: 10px;
         border-radius: 12px 12px 0px 0px;
-    }
-    .worrior-card {
-        width: 270px;
-        border-radius: 8px 8px 0px 0px;
     }
  }
  @media (max-width:550px) {
