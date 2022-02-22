@@ -16,7 +16,7 @@ const WorriorCard = ({item,index,handleOrderCollect}) => {
             <div className='card-img'>
                 <img src={pic} />
                 <div className='card-selected'>
-                    <input type="checkbox"  onChange={(e)=>{handleOrderCollect(e,index)}}    className='checkbox-round' />
+                    <input type="checkbox"  onChange={(e)=>{handleOrderCollect(e,index)}}   className='checkbox-round' />
                     <h6><span>IN BATTLE</span></h6>
                 </div>
             </div>

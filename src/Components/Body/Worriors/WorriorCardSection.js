@@ -31,7 +31,10 @@ const WorriorCardSection = () => {
             setProduct(product.filter((item) => item !== i))
         }
     }
-    console.log(product.length)
+    console.log(product);
+    const handleCancel =()=>{
+        setProduct([])
+    }
     return (
         <div className='worriors'>
             <h1>My Worriors</h1>
@@ -56,7 +59,7 @@ const WorriorCardSection = () => {
                             <span ><AiOutlineMinusCircle style={{ background: "red", color: "white", borderRadius: "50%" }} /></span>
                             <span> {product.length} selected</span>
                             <button className='selected-area-btn'>restart</button>
-                            <button className='selected-area-btn'>cancel</button>
+                            <button className='selected-area-btn' onClick={handleCancel} >cancel</button>
                         </div>
                         <div>Level: hight to low <span> + </span></div>
                     </div>
