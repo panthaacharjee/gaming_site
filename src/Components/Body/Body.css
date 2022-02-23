@@ -25,5 +25,11 @@
     .gaming-warrior{ 
         grid-template-columns: repeat(1,1fr);
     }
+    .side_content{
+        margin-right: 0px;
+    }
  }
 
+@media (max-width:800px) {
+    
+}
