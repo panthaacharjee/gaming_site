@@ -30,6 +30,8 @@
     }
  }
 
-@media (max-width:800px) {
-    
+@media (max-width:770px) {
+    .side_content {
+        margin-right: 5px;
+    }
 }

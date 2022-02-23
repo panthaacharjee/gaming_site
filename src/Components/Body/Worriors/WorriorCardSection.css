@@ -260,7 +260,7 @@
         border-radius: 8px 8px 0px 0px;
     }
  }
- @media (max-width : 770px) {
+ @media (max-width:1000px) {
     .warrior-card-section{ 
         grid-template-columns: repeat(2,1fr);
         grid-gap: 10px;
@@ -275,11 +275,39 @@
         border-radius: 12px 12px 0px 0px;
     }
  }
+ @media (max-width : 770px) {
+    .warrior-card-section{ 
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        padding: 10px; 
+        width: 98%;
+    }
+    .select-count-area {
+        background: rgba(227, 233, 255, 0.12);
+        color: rgba(255, 255, 255, 0.66);
+        width: 98%;
+        padding-bottom: 10px;
+        border-radius: 12px 12px 0px 0px;
+    }
+ }
  @media (max-width:550px) {
+    .worriors {
+        /* margin-top: -15px; */
+        width: 98%;
+        margin: 0px auto;
+        margin-right: 0px;
+    }
     .warrior-card-section{ 
         grid-template-columns: repeat(1,1fr);
         grid-gap: 10px;
     }
  }
-
+@media (max-width:400px) {
+    .worriors {
+        /* margin-top: -15px; */
+        width: 98%;
+        margin: 0px auto;
+        margin-left: 7px;
+    }
+}
 
